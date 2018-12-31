@@ -1,0 +1,236 @@
+/* Base styles */
+
+img
+{
+    max-width: 100%;
+} 
+
+body
+{
+    background-color: #fff;
+    font-family: 'Lusitana', serif;
+}
+
+/* Social icons */
+
+ul.social
+{
+    list-style-type: none;    
+    background-color: #000;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    padding: 5px;
+}
+
+ul.social li
+{
+    padding: 10px;
+    padding-left: 5px;
+}
+
+/* Headers */
+
+h1
+{
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding: 15px;
+    background: #f3ce00;
+    top: 50px;
+    right: 200px;
+    text-align: right;
+}
+
+h1, h2, h3
+{
+    font-family: 'Francois One', sans-serif;
+    font-weight: normal;
+}
+
+h1, h3
+{
+    text-transform: uppercase;
+}
+
+/* Main */
+
+.blocks1
+{
+    
+    position: relative;
+    left: 0px;
+    width: 55%;
+    float: left;
+    margin-left: -50px;
+    margin-right: 30px;
+    margin-bottom: 50px;    
+}
+
+
+.article
+{
+    margin-bottom: 10px;
+    margin-left: 50px;    
+    margin-top: 0px;
+    margin-right: 135px;
+    line-height: 1.5;
+    float: left;
+} 
+
+.author
+{
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+.blocks2
+{
+    clear: both;
+    margin-left: 150px;
+}
+
+.quote
+{
+    position: relative;
+    z-index: 1;
+    width: 70%;
+    left: 100px;
+    bottom: 100px;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-align: right;
+    padding: 10px;
+}
+
+footer
+{
+    margin-top: -60px;
+}
+
+footer h2
+{
+    margin-left: 150px;
+    font-size: 32px;
+}
+
+.linda
+{
+    font-size: 24px;
+}
+
+.appreciation
+{
+    float: left;  
+    border-left: 2px solid black;
+    text-align: center;    
+}
+
+.number
+{
+    font-size: 80px;
+    margin: 0;    
+}
+
+.appreciation h3
+{
+    margin-top: 0;
+    margin-left: 50px;    
+}
+
+.Linda
+{
+    float: left;
+    width: 150px;
+    margin-left: 150px;
+}
+
+.bio
+{
+    width: 40%;
+    float: left;
+    margin: 30px;
+    margin-top: -25px;
+    line-height: 1.4;
+}
+
+.contact
+{
+    clear: both;
+    margin-left: 110px;
+}
+
+.contact li
+{    
+    list-style-type: none;
+    display: inline-block; 
+    padding: 15px 30px;
+    margin: 20px;    
+    background: #f3ce00;
+    width: 170px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.contact a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact a:hover
+{
+    color: #fff;
+}
+
+/* Media */
+
+@media (max-width: 900px)
+{
+    .blocks1
+    {
+        float: none;
+        width: 100%;
+    }
+    
+   /* .article
+    {
+        float: none;
+        width: 100%;
+        margin: 0 100px 0;
+    }*/
+    
+    .appreciation
+    {
+        float: none;
+        border: none; 
+        
+    }
+}
+
+@media (max-width: 768px)
+{
+	h1
+	{
+		right: 0px;
+	}
+
+	.Linda
+	{
+		float: none;
+	}
+
+	.bio
+	{
+		float: none;
+		margin-left: 150px;
+	}
+}
